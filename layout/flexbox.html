@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Flexbox </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Patrick Mendes Macedo">
+
+    <style>
+        body {
+            margin-bottom: 500px;
+        }
+
+        .flexbox {
+            height: 250px;
+            border: 3px solid red;
+            display: flex;
+            margin-bottom: 16px;
+        }
+
+        .flexbox div {
+            border: 2px solid orange;
+            width: 150px;
+            margin: 15px;
+        }
+
+        .flex-container1 {
+            /* flex-wrap: wrap;
+            flex-direction: row; */
+            flex-flow: row wrap;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="flexbox flex-container1">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+</body>
+
+</html>
